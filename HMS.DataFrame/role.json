@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Cardiologist",
+    "description": "Specializes in heart diseases and cardiovascular health."
+  },
+  {
+    "name": "Dermatologist",
+    "description": "Focuses on skin, hair, and nail-related issues."
+  },
+  {
+    "name": "Gastroenterologist",
+    "description": "Deals with the digestive system and its disorders."
+  },
+  {
+    "name": "Neurologist",
+    "description": "Specializes in the nervous system and its disorders."
+  },
+  {
+    "name": "Oncologist",
+    "description": "Focuses on the diagnosis and treatment of cancer."
+  },
+  {
+    "name": "Orthopedist",
+    "description": "Specializes in bones, joints, and musculoskeletal system."
+  },
+  {
+    "name": "Psychiatrist",
+    "description": "Deals with mental health disorders and conditions."
+  },
+  {
+    "name": "Endocrinologist",
+    "description": "Focuses on hormone-related disorders and endocrine system."
+  },
+  {
+    "name": "Ophthalmologist",
+    "description": "Specializes in eye diseases and vision-related issues."
+  },
+  {
+    "name": "Pulmonologist",
+    "description": "Deals with respiratory system disorders and lung diseases."
+  },
+  {
+    "name": "Urologist",
+    "description": "Focuses on urinary tract disorders and male reproductive system."
+  },
+  {
+    "name": "Rheumatologist",
+    "description": "Specializes in autoimmune diseases and musculoskeletal disorders."
+  },
+  {
+    "name": "Nephrologist",
+    "description": "Deals with kidney diseases and renal system disorders."
+  },
+  {
+    "name": "Infectious Disease Specialist",
+    "description": "Focuses on infectious diseases caused by bacteria, viruses, fungi, or parasites."
+  },
+  {
+    "name": "Allergist/Immunologist",
+    "description": "Specializes in allergies, asthma, and immune system disorders."
+  },
+  {
+    "name": "Hematologist",
+    "description": "Focuses on blood disorders and conditions."
+  },
+  {
+    "name": "Pediatrician",
+    "description": "Specializes in the care of children, infants, and adolescents."
+  },
+  {
+    "name": "Geriatrician",
+    "description": "Deals with health care of elderly patients and age-related conditions."
+  },
+  {
+    "name": "Obstetrician/Gynecologist (OB/GYN)",
+    "description": "Focuses on women's reproductive health."
+  },
+  {
+    "name": "Neonatologist",
+    "description": "Specializes in the care of newborn infants, particularly those who are ill or premature."
+  }
+]
