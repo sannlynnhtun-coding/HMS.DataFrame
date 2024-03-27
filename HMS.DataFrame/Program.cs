@@ -15,17 +15,32 @@ Console.WriteLine("Hello, World!");
 //    await apiService.Post(item);
 //}
 
+var jsonStr = await File.ReadAllTextAsync("room.json");
+var lst = JsonConvert.DeserializeObject<List<Room>>(jsonStr);
 
+var baseUrl = "https://hospital-management-system-backend-7fee.vercel.app/api/v1";
+
+var apiService = RestService.For<IApi>(baseUrl);
+foreach (var item in lst)
+{
+    await apiService.Post(item);
+}
 
 Console.ReadKey();
 
-public interface IDiseaseApi
-{
-    [Post("/diseases")]
-    Task Post(Disease disease);
+public interface IApi
+{ 
+    [Post("/rooms")]
+    Task Post(Room item);
 }
 
 public class Disease
+{
+    public int id { get; set; }
+    public string name { get; set; }
+}
+
+public class Room
 {
     public int id { get; set; }
     public string name { get; set; }
